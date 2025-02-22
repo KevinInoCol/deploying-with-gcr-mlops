@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: us-central1-docker.pkg.dev/datapath-deploy-api-v1/repo-servicio-prediccion-datapath/image-v1-servicio-prediccion-datapath:latest
+        - image: us-central1-docker.pkg.dev/project-mlops-10-streamlit/repo-streamlit-datapath/image-v1-streamlit-datapath:latest
           env:
           ports:
-            - containerPort: 4001
+            - containerPort: 4000
