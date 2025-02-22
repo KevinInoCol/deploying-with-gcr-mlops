@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: servicio-api-kaic-datapath
+  name: servicio-streamlit-datapath-nombre-apellido
 spec:
   template:
     spec:
